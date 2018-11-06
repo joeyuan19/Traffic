@@ -1,0 +1,2 @@
+all:
+		clang++ 2D.cpp -o 2D -std=c++11 -stdlib=libc++ -I/usr/local/include -L/usr/local/lib -lSDL2

@@ -1,0 +1,2 @@
+all:
+		clang++ onramp.cpp -o OnRamp -std=c++11 -stdlib=libc++ -I/usr/local/include -L/usr/local/lib -lSDL2
